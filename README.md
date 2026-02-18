@@ -40,22 +40,27 @@ All models validated for:
 
 ## Usage
 
+We recommend using the [AMLP-Analysis module](https://github.com/adamlaho/AMLP) (`amlpa.py`) for running simulations with these models:
+```bash
+python3 amlpa.py structure.xyz config.yaml
+```
+
+In your `config.yaml`, point to the downloaded model:
+```yaml
+model_paths:
+  - 'path/to/model.model'
+device: 'gpu'
+gpus: ['cuda:0']
+```
+
+Alternatively, you can use the models directly via the MACE calculator:
 ```python
 from mace.calculators import MACECalculator
-
 calc = MACECalculator(model_paths="path/to/model.model", device="cuda")
 atoms.calc = calc
 ```
 
-## Repository Structure
-
-```
-MC-MLIPs/
-├── models/          # Trained MACE model files
-├── datasets/        # Training/validation HDF5 files
-├── structures/      # DFT-optimized CIF files
-└── configs/         # Training configuration files
-```
+For full configuration options (MD, geometry optimization, RDF analysis, etc.), refer to the [AMLP documentation](https://github.com/adamlaho/AMLP).
 
 ## Citation
 
