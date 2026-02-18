@@ -1,0 +1,80 @@
+# MC-MLIPs
+
+**Molecular Crystals Database for Machine Learning Interatomic Potentials**
+
+Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AMLP framework](https://github.com/adamlaho/AMLP).
+
+## Models
+
+| Compound | CSD Code | # Polymorphs | Energy MAE (meV/atom) | Force MAE (meV/Å) |
+|----------|----------|:------------:|:---------------------:|:-----------------:|
+| Resorcinol | RESORA | 4 | 1.95 | 4.01 |
+| Durene | DURENE | 3 | 1.82 | 5.98 |
+| Coumarin | COUMAR | 12 | 1.72 | 6.32 |
+| Benzamide | BZAMID | 10 | 1.80 | 9.56 |
+| Niacinamide | NICOAM | 7 | 1.60 | 9.14 |
+| Nicotinamide | NICOAC | 4 | 1.42 | 6.09 |
+| Isonicotinamide | EHOWIH | 5 | 1.93 | 12.51 |
+| Pyrazinamide | PYRIZIN | 14 | 1.69 | 9.68 |
+| Benzoic acid | BENZAC | 6 | 1.34 | 8.88 |
+| **Mean** | | **65** | **1.70** | **8.02** |
+
+## Training Protocol
+
+- **Foundation Model**: MACE-MP-0 (`mace-mh-1-omol-1%`)
+- **Reference Data**: DFT (PBE-D4) optimizations + AIMD trajectories (25-500K)
+- **DFT Settings**: VASP, 750 eV cutoff, EDIFF = 10⁻⁷ eV
+
+**Two-stage training:**
+1. Initial: LR = 2×10⁻³, energy weight = 100, force weight = 10
+2. SWA (epoch 200+): LR = 5×10⁻⁵, force weight = 100
+
+Early stopping with patience = 75 epochs. All models trained in float64.
+
+## Validation
+
+All models validated for:
+- **Energy conservation**: NVE drift < 10⁻⁵ over 25 ps
+- **Thermal stability**: NVT stable up to 600K
+- **Structural integrity**: RDFs and P₂ order parameters preserved
+
+## Usage
+
+```python
+from mace.calculators import MACECalculator
+
+calc = MACECalculator(model_paths="path/to/model.model", device="cuda")
+atoms.calc = calc
+```
+
+## Repository Structure
+
+```
+MC-MLIPs/
+├── models/          # Trained MACE model files
+├── datasets/        # Training/validation HDF5 files
+├── structures/      # DFT-optimized CIF files
+└── configs/         # Training configuration files
+```
+
+## Citation
+
+If you use these models, please cite:
+
+```bibtex
+@article{lahouari2026mcmlips,
+  title={Benchmarking Fine-Tuned MACE Interatomic Potentials for Polymorphic Molecular Crystals},
+  author={Lahouari, Adam and others},
+  journal={},
+  year={2026}
+}
+```
+
+## License
+
+MIT License
+
+## Acknowledgments
+
+- [MACE](https://github.com/ACEsuit/mace) development team
+- NYU High Performance Computing

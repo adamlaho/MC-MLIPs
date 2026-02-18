@@ -1,0 +1,12 @@
+*.h5
+*.hdf5
+*.model
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+__pycache__/
+*.pyc
+*.log
+wandb/
