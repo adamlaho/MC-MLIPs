@@ -21,7 +21,7 @@ Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AM
 
 ## Training Protocol
 
-- **Foundation Model**: MACE-MP-0 (`mace-mh-1-omol-1%`)
+- **Foundation Model**: MACE-MH1 (`mace-mh-1-omol-1%`)
 - **Reference Data**: DFT (PBE-D4) optimizations + AIMD trajectories (25-500K)
 - **DFT Settings**: VASP, 750 eV cutoff, EDIFF = 10⁻⁷ eV
 
