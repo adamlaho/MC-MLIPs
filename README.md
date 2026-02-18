@@ -6,18 +6,18 @@ Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AM
 
 ## Models
 
-| Compound | CSD Code | # Polymorphs | Energy MAE (meV/atom) | Force MAE (meV/Å) |
-|----------|----------|:------------:|:---------------------:|:-----------------:|
-| Resorcinol | RESORA | 4 | 1.95 | 4.01 |
-| Durene | DURENE | 3 | 1.82 | 5.98 |
-| Coumarin | COUMAR | 12 | 1.72 | 6.32 |
-| Benzamide | BZAMID | 10 | 1.80 | 9.56 |
-| Niacinamide | NICOAM | 7 | 1.60 | 9.14 |
-| Nicotinamide | NICOAC | 4 | 1.42 | 6.09 |
-| Isonicotinamide | EHOWIH | 5 | 1.93 | 12.51 |
-| Pyrazinamide | PYRIZIN | 14 | 1.69 | 9.68 |
-| Benzoic acid | BENZAC | 6 | 1.34 | 8.88 |
-| **Mean** | | **65** | **1.70** | **8.02** |
+| Compound | CSD Code | # Polymorphs | Energy MAE (meV/atom) | Force MAE (meV/Å) | Model | Dataset |
+|----------|----------|:------------:|:---------------------:|:-----------------:|:-----:|:-------:|
+| Resorcinol | RESORA | 4 | 1.95 | 4.01 | [↓ model](https://zenodo.org/records/XXXXXXX/files/resorcinol.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/resorcinol_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/resorcinol_valid.h5) |
+| Durene | DURENE | 3 | 1.82 | 5.98 | [↓ model](https://zenodo.org/records/XXXXXXX/files/durene.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/durene_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/durene_valid.h5) |
+| Coumarin | COUMAR | 12 | 1.72 | 6.32 | [↓ model](https://zenodo.org/records/XXXXXXX/files/coumarin.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/coumarin_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/coumarin_valid.h5) |
+| Benzamide | BZAMID | 10 | 1.80 | 9.56 | [↓ model](https://zenodo.org/records/XXXXXXX/files/benzamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/benzamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/benzamide_valid.h5) |
+| Niacinamide | NICOAM | 7 | 1.60 | 9.14 | [↓ model](https://zenodo.org/records/XXXXXXX/files/niacinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/niacinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/niacinamide_valid.h5) |
+| Nicotinamide | NICOAC | 4 | 1.42 | 6.09 | [↓ model](https://zenodo.org/records/XXXXXXX/files/nicotinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/nicotinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/nicotinamide_valid.h5) |
+| Isonicotinamide | EHOWIH | 5 | 1.93 | 12.51 | [↓ model](https://zenodo.org/records/XXXXXXX/files/isonicotinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/isonicotinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/isonicotinamide_valid.h5) |
+| Pyrazinamide | PYRIZIN | 14 | 1.69 | 9.68 | [↓ model](https://zenodo.org/records/XXXXXXX/files/pyrazinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/pyrazinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/pyrazinamide_valid.h5) |
+| Benzoic acid | BENZAC | 6 | 1.34 | 8.88 | [↓ model](https://zenodo.org/records/XXXXXXX/files/benzoic_acid.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/benzoic_acid_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/benzoic_acid_valid.h5) |
+| **Mean** | | **65** | **1.70** | **8.02** | | |
 
 ## Training Protocol
 
