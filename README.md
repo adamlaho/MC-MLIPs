@@ -17,7 +17,7 @@ Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AM
 | Isonicotinamide | EHOWIH | 5 | 1.93 | 12.51 | [↓ model](https://zenodo.org/records/XXXXXXX/files/isonicotinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/isonicotinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/isonicotinamide_valid.h5) |
 | Pyrazinamide | PYRIZIN | 14 | 1.69 | 9.68 | [↓ model](https://zenodo.org/records/XXXXXXX/files/pyrazinamide.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/pyrazinamide_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/pyrazinamide_valid.h5) |
 | Benzoic acid | BENZAC | 6 | 1.34 | 8.88 | [↓ model](https://zenodo.org/records/XXXXXXX/files/benzoic_acid.model) | [↓ train](https://zenodo.org/records/XXXXXXX/files/benzoic_acid_train.h5) [↓ valid](https://zenodo.org/records/XXXXXXX/files/benzoic_acid_valid.h5) |
-| **Mean** | | **65** | **1.70** | **8.02** | | |
+| **Mean** | | | **1.70** | **8.02** | | |
 
 ## Training Protocol
 
