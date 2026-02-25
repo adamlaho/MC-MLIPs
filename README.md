@@ -5,20 +5,19 @@
 Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AMLP framework](https://github.com/adamlaho/AMLP).
 
 ## Models
-
-| Compound | CSD Code | # Polymorphs | Energy MAE (meV/atom) | Force MAE (meV/Å) | Model | Dataset |
-|----------|----------|:------------:|:---------------------:|:-----------------:|:-----:|:-------:|
-| Resorcinol | RESORA | 4 | 1.9 | 4.0 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/resora.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_valid.h5) |
-| Durene | DURENE | 3 | 1.8 | 5.5 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/durene.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_valid.h5) |
-| Coumarin | COUMAR | 12 | 1.7 | 4.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/coumar.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/coumar_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/coumar_valid.h5) |
-| Benzamide | BZAMID | 10 | 1.5 | 10.5 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/bzamid.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/bzamid_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/bzamid_valid.h5) |
-| Niacinamide | NICOAM | 7 | 1.6 | 8.0 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/nicoam.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoam_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoam_valid.h5) |
-| Nicotinamide | NICOAC | 4 | 1.4 | 5.9 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/nicoac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoac_valid.h5) |
-| Isonicotinamide | EHOWIH | 5 | 2.0 | 11.7 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/ehowih.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_valid.h5) |
-| Pyrazinamide | PYRIZIN | 14 | 1.6 | 6.8 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/pyrizin.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_valid.h5) |
-| Benzoic acid | BENZAC | 6 | 1.3 | 8.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/benzac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_valid.h5) |
-| Acridine | ACRDIN | 8 | 3.7 | 8.3 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/acridine.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_valid.h5) |
-| **Mean** | | | **1.96** | **7.35** |
+| Compound | CSD Code | Energy MAE (meV/atom) | Force MAE (meV/Å) | Model | Dataset |
+|----------|----------|:---------------------:|:-----------------:|:-----:|:-------:|
+| Resorcinol | RESORA | 1.9 | 4.0 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/resora.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_valid.h5) |
+| Durene | DURENE | 1.8 | 5.5 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/durene.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_valid.h5) |
+| Coumarin | COUMAR | 1.7 | 4.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/coumar.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/coumar_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/coumar_valid.h5) |
+| Benzamide | BZAMID | 1.5 | 10.5 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/bzamid.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/bzamid_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/bzamid_valid.h5) |
+| Niacinamide | NICOAM | 1.6 | 8.0 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/nicoam.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoam_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoam_valid.h5) |
+| Nicotinamide | NICOAC | 1.4 | 5.9 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/nicoac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/nicoac_valid.h5) |
+| Isonicotinamide | EHOWIH | 2.0 | 11.7 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/ehowih.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_valid.h5) |
+| Pyrazinamide | PYRIZIN | 1.6 | 6.8 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/pyrizin.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_valid.h5) |
+| Benzoic acid | BENZAC | 1.3 | 8.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/benzac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_valid.h5) |
+| Acridine | ACRDIN | 3.7 | 8.3 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/acridine.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_valid.h5) |
+| **Mean** | | **1.96** | **7.35** | | |
 
 ## Training Protocol
 
