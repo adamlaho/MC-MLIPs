@@ -17,7 +17,7 @@ Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AM
 | Isonicotinamide | EHOWIH | 5 | 2.0 | 11.7 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/ehowih.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_valid.h5) |
 | Pyrazinamide | PYRIZIN | 14 | 1.6 | 6.8 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/pyrizin.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_valid.h5) |
 | Benzoic acid | BENZAC | 6 | 1.3 | 8.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/benzac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_valid.h5) |
-| Acridine | ACRIDN | 8 | 3.7 | 8.3 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/acridine.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_valid.h5) |
+| Acridine | ACRDIN | 8 | 3.7 | 8.3 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/acridine.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_valid.h5) |
 | **Mean** | | | **1.96** | **7.35** |
 
 ## Training Protocol
