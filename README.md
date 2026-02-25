@@ -70,8 +70,8 @@ If you use these models, please cite:
 ```bibtex
 @article{lahouari2026mcmlips,
   title={Benchmarking Fine-Tuned MACE Interatomic Potentials for Polymorphic Molecular Crystals},
-  author={Lahouari, Adam and others},
-  journal={},
+  author={Lahouari, Adam and Ai, Shen and Han, Jihye and Hoffstadt, Jillian and H{\"o}llmer, Philipp and Infante, Charlotte and Jain, Pulkita and Kadam, Sangram and Martirossyan, Maya M. and McCune, Amara and Newton, Hypatia and Paul, Shlok J. and Pena, Willmor and Raghoonanan, Jonathan and Sahu, Sumon and Tan, Oliver and Vergara, Andrea and Rogal, Jutta and Tuckerman, Mark E.},
+  journal={arXiv preprint arXiv:XXXXX},
   year={2026}
 }
 
