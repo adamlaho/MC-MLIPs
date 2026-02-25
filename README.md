@@ -5,7 +5,7 @@
 Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AMLP framework](https://github.com/adamlaho/AMLP).
 
 ## Models
-| Compound | CSD Code | Energy MAE (meV/atom) | Force MAE (meV/Å) | Model | Dataset |
+| Compound | CSD Code | Energy MAE<br>(meV/atom) | Force MAE<br>(meV/Å) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |----------|----------|:---------------------:|:-----------------:|:-----:|:-------:|
 | Resorcinol | RESORA | 1.9 | 4.0 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/resora.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/resora_valid.h5) |
 | Durene | DURENE | 1.8 | 5.5 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/durene.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/durene_valid.h5) |
