@@ -17,7 +17,8 @@ Fine-tuned MACE models for polymorphic molecular crystals, trained using the [AM
 | Isonicotinamide | EHOWIH | 5 | 2.0 | 11.7 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/ehowih.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/ehowih_valid.h5) |
 | Pyrazinamide | PYRIZIN | 14 | 1.6 | 6.8 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/pyrizin.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/pyrizin_valid.h5) |
 | Benzoic acid | BENZAC | 6 | 1.3 | 8.4 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/benzac.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/benzac_valid.h5) |
-| **Mean** | || **1.76** | **7.24** | | |
+| Acridine | ACRIDN | 8 | 3.7 | 8.3 | [↓ model](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/models/acridine.model) | [↓ train](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_train.h5) [↓ valid](https://huggingface.co/adamlaho/MC-MLIP/resolve/main/datasets/acridine_valid.h5) |
+| **Mean** | | | **1.96** | **7.35** |
 
 ## Training Protocol
 
@@ -72,6 +73,19 @@ If you use these models, please cite:
   author={Lahouari, Adam and others},
   journal={},
   year={2026}
+}
+
+@article{lahouari2026amlp,
+  title={Automated Machine Learning Pipeline: Large Language Models-Assisted Automated Data set Generation for Training Machine-Learned Interatomic Potentials},
+  author={Lahouari, Adam and Rogal, Jutta and Tuckerman, Mark E.},
+  journal={Journal of Chemical Theory and Computation},
+  volume={22},
+  number={1},
+  pages={305--317},
+  year={2026},
+  publisher={American Chemical Society},
+  doi={10.1021/acs.jctc.5c01610},
+  url={https://doi.org/10.1021/acs.jctc.5c01610}
 }
 ```
 
