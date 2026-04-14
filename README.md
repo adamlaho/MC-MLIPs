@@ -1,4 +1,4 @@
-# MC-MLIPs
+# MolCryst-MLIPs
 
 **Molecular Crystals Database for Machine Learning Interatomic Potentials**
 
