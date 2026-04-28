@@ -67,10 +67,11 @@ For full configuration options (MD, geometry optimization, RDF analysis, etc.), 
 If you use these models, please cite:
 
 ```bibtex
-@article{lahouari2026mcmlips,
-  title={Benchmarking Fine-Tuned MACE Interatomic Potentials for Polymorphic Molecular Crystals},
-  author={Lahouari, Adam and Ai, Shen and Han, Jihye and Hoffstadt, Jillian and H{\"o}llmer, Philipp and Infante, Charlotte and Jain, Pulkita and Kadam, Sangram and Martirossyan, Maya M. and McCune, Amara and Newton, Hypatia and Paul, Shlok J. and Pena, Willmor and Raghoonanan, Jonathan and Sahu, Sumon and Tan, Oliver and Vergara, Andrea and Rogal, Jutta and Tuckerman, Mark E.},
-  journal={arXiv preprint arXiv:XXXXX},
+
+@article{lahouari2026molcryst,
+  title={MolCryst-MLIPs: A Machine-Learned Interatomic Potentials Database for Molecular Crystals},
+  author={Lahouari, Adam and Ai, Shen and Han, Jihye and Hoffstadt, Jillian and Hoellmer, Philipp and Infante, Charlotte and Jain, Pulkita and Kadam, Sangram and Martirossyan, Maya M and McCune, Amara and others},
+  journal={arXiv preprint arXiv:2604.13897},
   year={2026}
 }
 
