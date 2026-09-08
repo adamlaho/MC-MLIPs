@@ -70,8 +70,11 @@ If you use these models, please cite:
 @article{lahouari2026molcryst,
   title={MolCryst-MLIPs: A Machine-Learned Interatomic Potentials Database for Molecular Crystals},
   author={Lahouari, Adam and Ai, Shen and Han, Jihye and Hoffstadt, Jillian and Hoellmer, Philipp and Infante, Charlotte and Jain, Pulkita and Kadam, Sangram and Martirossyan, Maya M and McCune, Amara and others},
-  journal={arXiv preprint arXiv:2604.13897},
-  year={2026}
+  journal={Journal of Chemical Theory and Computation},
+  year={2026},
+  publisher={American Chemical Society},
+  doi={10.1021/acs.jctc.6c00735},
+  url={https://doi.org/10.1021/acs.jctc.6c00735}
 }
 
 @article{lahouari2026amlp,
